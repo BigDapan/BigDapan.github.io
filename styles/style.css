@@ -1,0 +1,131 @@
+/* Add your CSS styles here */
+body {
+    font-family: 'Dancing Script', sans-serif;
+    background-color: #fefee2;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #333;
+  }
+  h2 {
+    margin: 20px 0;
+    font-size: 1.75em;
+    color: #333;
+  }
+  .header-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .navigation {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+  }
+  .navigation a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0px;
+  }
+  .navigation a:hover {
+    color: #000000;
+    font-weight: bold;
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .main-content .column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  .card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  .card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .card h3 {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  .card p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
+  font-size: 1.2em;
+}
+.liste {
+    font-size: 1.5em;
+  }
+table {
+    border-collapse: collapse;
+  }
+  th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.8em;
+  }
+  table td:first-child  { border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.8em;
+    width: 15%;}
+table td:nth-child(2) { border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.8em;
+    width: 35%;}
+table td:nth-child(3) { border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.8em; 
+width: 15%;
+text-align: center;}
+table td:last-child   { border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.8em;
+    width: 35%;
+}
+  
+  
+/* Media queries */
+@media (max-width: 600px) {
+  .main-content .column {
+    flex: 0 0 100%;
+  }
+}
