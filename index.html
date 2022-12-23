@@ -12,11 +12,14 @@
     <img src="https://www.placedesgrandsvins.com/wp-content/uploads/2016/07/paysage-vignoble-beaujolais.jpg" alt="Wedding header image" class="header-image">
     <nav class="navigation">
       <a href="index.html">Accueil</a>
-      <a href="details.html">Détails</a>
+      <a href="details.html">Lieu de réception et planning</a>
       <a href="lodging.html">Hébergements</a>
       <a href="#">Photos</a>
       <a href="#">RSVP</a>
     </nav>
+    <div class="countdown-container">
+      <div id="countdown"></div>
+    </div>
     <div class="main-content">
       <div class="column">
         <div class="card">
@@ -39,4 +42,23 @@
       </div>
       </body>
       </html>
+      <script>
+        var countDownDate = new Date("Aug 26, 2023 14:30:00").getTime();
       
+        var x = setInterval(function() {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+      
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+          document.getElementById("countdown").innerHTML = "La réception aura lieu dans " + days + " jours " + hours + " heures " + minutes + " minutes " + seconds + " secondes ";
+      
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "Expired";
+          }
+        }, 1000);
+      </script>

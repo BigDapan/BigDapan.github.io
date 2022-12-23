@@ -37,6 +37,7 @@ body {
     background-color: #fff;
     color: #333;
     padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
   }
   .navigation a {
     color: #333;
@@ -52,6 +53,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0;
+    font-size: 1.4em;
   }
   
   .main-content .column {
@@ -123,6 +125,51 @@ table td:last-child   { border: 1px solid #ddd;
     font-size: 0.8em;
     width: 35%;
 }
+iframe-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.planning table {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.6em;
+  width: 800px;
+  text-align: center;
+}
+.planning th{
+  border-bottom: #333;
+  padding: 8px;
+  font-size: 0.8em;
+}
+.planning table td:first-child  { 
+  padding: 8px;
+  font-size: 0.8em;
+  width: 50%;}
+.planning table td:nth-child(2) { 
+  padding: 8px;
+  font-size: 0.8em;
+  width: 50%;}
+
+.planning {
+  margin: 0 auto;
+}
+.countdown-container{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  font-size: 1.75em;
+}
+
   
   
 /* Media queries */
