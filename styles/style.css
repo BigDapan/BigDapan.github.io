@@ -99,66 +99,57 @@ body {
 .liste {
     font-size: 1.5em;
   }
-table {
+.main-content-lodge table {
     border-collapse: collapse;
   }
-  th{
+  .main-content-lodge th{
     border: 1px solid #ddd;
     padding: 8px;
     font-size: 0.8em;
   }
-  table td:first-child  { border: 1px solid #ddd;
+  .main-content-lodge table td:first-child  { border: 1px solid #ddd;
     padding: 8px;
     font-size: 0.8em;
     width: 15%;}
-table td:nth-child(2) { border: 1px solid #ddd;
+    .main-content-lodge table td:nth-child(2) { border: 1px solid #ddd;
     padding: 8px;
     font-size: 0.8em;
     width: 35%;}
-table td:nth-child(3) { border: 1px solid #ddd;
+    .main-content-lodge table td:nth-child(3) { border: 1px solid #ddd;
     padding: 8px;
     font-size: 0.8em; 
 width: 15%;
 text-align: center;}
-table td:last-child   { border: 1px solid #ddd;
+.main-content-lodge table td:last-child   { border: 1px solid #ddd;
     padding: 8px;
     font-size: 0.8em;
     width: 35%;
 }
-iframe-container {
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-}
 iframe {
   display: block;
   margin: 0 auto;
-  justify-content: center;
 }
 
 .planning table {
-  display: block;
   margin: 0 auto;
   font-size: 1.6em;
-  width: 800px;
   text-align: center;
 }
 .planning th{
-  border-bottom: #333;
-  padding: 8px;
+  border-bottom:1.5px solid #333;
+  padding: 1px;
   font-size: 0.8em;
 }
 .planning table td:first-child  { 
-  padding: 8px;
-  font-size: 0.8em;
-  width: 50%;}
+  padding: 12px;
+  font-size: 0.8em;}
 .planning table td:nth-child(2) { 
-  padding: 8px;
-  font-size: 0.8em;
-  width: 50%;}
+  padding: 12px;
+  font-size: 0.8em;}
 
 .planning {
   margin: 0 auto;
+  justify-content: center;
 }
 .countdown-container{
   display: flex;
