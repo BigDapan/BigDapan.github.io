@@ -49,6 +49,10 @@ body {
     color: #000000;
     font-weight: bold;
   }
+  .navigation a:active {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
   .main-content {
     display: flex;
     flex-wrap: wrap;
