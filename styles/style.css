@@ -90,7 +90,7 @@ body {
     font-size: 1.2em;
 }
 .footer {
-  background-color: #333;
+  background-color: rgb(75, 75, 75);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -179,6 +179,9 @@ iframe {
   font-size: 1.3em;
 }
 
+.main-content-construction {
+  justify-content: center;
+}
   
 /* Media queries */
 @media (max-width: 600px) {
